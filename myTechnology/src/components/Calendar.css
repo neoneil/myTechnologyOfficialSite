@@ -1,0 +1,32 @@
+body {
+      animation: colorchange 15s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 15s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+.myframe{
+  background-color: #e6ecff;
+  display: inline-block;
+  margin:2%;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}

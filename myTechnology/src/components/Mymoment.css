@@ -1,0 +1,26 @@
+body{
+  background: url("./background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.moment-wrapper{
+ text-align: center;
+ font-size: 30px;
+ margin-top: 15%;
+ color:white;
+}
+.moment-title{
+color:black;
+}
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+  display: inline;
+  background-color: #004d00;
+  display: inline-block;
+  margin:1%;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
